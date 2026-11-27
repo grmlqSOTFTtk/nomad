@@ -1,5 +1,8 @@
 # nomadic
 
+> [!WARNING]
+> **This package is no longer maintained.** Because of security issues, and so that you keep getting future updates, please use **[phasmid](https://github.com/smiduweorc/phasmid)** instead.
+
 Provider-aware **email normalization and canonicalization** for the browser and the server. Pure ESM, zero runtime dependencies, fully typed.
 
 Two addresses can point to the same mailbox even when they look different. `John.Doe+news@googlemail.com` and `johndoe@gmail.com` both deliver to the same Gmail inbox. `nomadic` resolves any address to a single **canonical form** using per-provider rules, and lets you configure rules for your own providers.
